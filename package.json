@@ -1,0 +1,33 @@
+{
+  "name": "flashcard-app",
+  "version": "1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "pack": "npm-pack-zip"
+  },
+  "dependencies": {
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^11.0.3",
+    "jsdoc": "^4.0.2",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "npm-pack-zip": "^1.3.0",
+    "typescript": "^5"
+  }
+}
