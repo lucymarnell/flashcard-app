@@ -13,7 +13,6 @@ const CARD_HEIGHT = 300;
 // Display a random flashcard
 export function FlashcardStudyDisplay (props: { bins: Map<number, Flashcard[]>} ) {
     const flashcardList = Array.from(props.bins.values()).flat().sort((c1, c2) => c2.key - c1.key);
-    const flashcardsList = 
 
     // Pick a random card from props
     function pickRandomCard(): Flashcard {

@@ -32,7 +32,7 @@ export default function FlashcardApp () {
   }
 
   // Create a button to toggle the flashcard editor
-  function toggleFlashcardEditor() {
+  function toggleFlashcardEditor(): JSX.Element {
     const onClick = () => setEditMode(!editMode) // toggle editing mode
     return (
       <VStack>
@@ -49,7 +49,7 @@ export default function FlashcardApp () {
   }
 
   // Create a button to toggle the study mode
-  function toggleStudyMode(){
+  function toggleStudyMode(): JSX.Element {
     const onClick = () => {
       setEditMode(!studyMode? false : editMode); // close the editor if opening study mode
       setStudyMode(!studyMode); // toggle study mode
