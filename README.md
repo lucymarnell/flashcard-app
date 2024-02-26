@@ -13,6 +13,6 @@ To use this app,
 
 This project is currently in progress. Next steps include:
 
-1. Add recommender system based on user feedback using the Leitner System.
-2. Add flashcard storage so cards are saved between sessions.
-3. Add editing for current flashcards without deleting them.
+1. Host on AWS to save flashcards between sessions.
+2. Add editing for current flashcards without deleting them.
+3. Add user configurability for recommender system.
